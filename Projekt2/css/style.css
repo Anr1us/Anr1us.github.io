@@ -1,0 +1,51 @@
+
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body  {background-color: rgb(232, 232, 232);}
+   
+main  {font-size: 20px;
+      width: 70%;
+      margin: auto;
+      padding: 50px;
+      background-color: white;
+      display: flex;
+      flex-wrap:wrap ;
+      justify-content: center;
+      font-family: 'Lobster', cursive;
+}
+h1{width: 100%;
+      
+
+}
+
+div{width: 400px;
+height: 250px;
+background-color: cyan;
+margin: 10px;
+}
+.item:hover {transform: scale(1.1) rotate(2deg) ;}
+
+.item{width: calc(50% - 20px) ;
+      height: calc((35vw - 20px) / 16 * 9);
+      margin: 10px;
+      border-radius: 5px;
+      transition: all 0.5s ease-in;
+      background-size: cover;
+      background-repeat:no-repeat ;
+}
+#item1 {background-image: url(../img/img.jpg);}
+#item2 {background-image: url(../img/1.jpg);}
+#item3 {background-image: url(../img/png1.jpg);}
+#item4 {background-image: url(../img/png2.jpg);}
+#item5 {background-image: url(../img/png3.jpg);}
+#item6 {background-image: url(../img/png4.jpg);}
+#item7 {background-image: url(../img/png5.jpg);}
+#item8 {background-image: url(../img/png7.jpg);}
+#item9 {background-image: url(../img/png8.jpg);}
+#item10 {background-image: url(../img/png9.jpg);}
+#item11 {background-image: url(../img/png10.jpg);}
+#item12 {background-image: url(../img/png11.jpg);}
+
+
